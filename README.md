@@ -1,0 +1,2 @@
+# teachercontrol
+Reverzní bakaláři
