@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TeacherControl</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Barlow+Condensed:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/app.css" />
+</head>
+<body>
+
+    <div id="app">
+        <nav class="tc-nav">
+            <div class="tc-logo">
+                <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true">
+                    <polygon points="16,2 28,9 28,23 16,30 4,23 4,9" fill="#e02020" stroke="#000" stroke-width="1.5" />
+                    <text x="16" y="21" text-anchor="middle" font-family="'Barlow Condensed',sans-serif" font-weight="800" font-size="16" fill="#000">T</text>
+                </svg>
+                <span class="tc-logo-text">Teacher<span>Control</span></span>
+            </div>
+            <span class="tc-navlink active" data-page="teachers">Učitelé</span>
+            <span class="tc-navlink" data-page="drbarna">Drbárna <span class="badge" id="nav-badge">0</span></span>
+            <span class="tc-navlink" data-page="hlasovani">Hlasování</span>
+            <span class="tc-navlink" data-page="bingo">Bingo</span>
+            <span class="tc-navlink" data-page="zebricek">Žebříček</span>
+            <div class="tc-nav-user">
+                <span id="anon-id"></span>
+                <div class="tc-av-sm" id="anon-av"></div>
+            </div>
+        </nav>
+
+        <div class="tc-body">
+            <aside class="tc-sidebar">
+                <div class="tc-stitle">Učitelé</div>
+                <div id="teacher-list"></div>
+                <div style="height:1px;background:#1e1e1e;margin:10px 14px;"></div>
+                <div class="tc-stitle" style="margin-top:4px;">Král dne</div>
+                <div id="king-slot" class="king-slot"></div>
+            </aside>
+
+            <main class="tc-content" id="main-content">
+                <div class="loading-msg">Načítám učitele…</div>
+            </main>
+        </div>
+    </div>
+
+    <script src="/js/api.js"></script>
+    <script src="/js/reviews.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>
