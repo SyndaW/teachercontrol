@@ -93,3 +93,8 @@ Slušně · Spořádaně · S úctou · Anonymně.
 
 ---
 MIT License © 2026 Vojtěch Synáč, Hanák, Žák
+
+## Osobní názor
+Můj názor na tuto aplikaci je pozitivní, myslím si, že je to zábavná aplikace pro žáky našeho věku,
+která nám umožní anonymně hodnotit naše učitele. Jediný problém který vidím je možná to, že by možná bylo moc
+práce pro 6 skupin. Možná ještě bude lepší přidat i další featury.
