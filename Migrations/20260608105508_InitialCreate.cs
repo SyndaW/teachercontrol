@@ -101,11 +101,17 @@ namespace TeacherControl.Api.Migrations
                 columns: new[] { "Id", "Color", "FullName", "Initials", "Subject" },
                 values: new object[,]
                 {
-                    { 1, "#e02020", "Novák Karel", "NK", "Matematika · Fyzika · 3. ročník" },
-                    { 2, "#f0a020", "Procházková Helena", "PH", "Český jazyk · Literatura · 2. ročník" },
-                    { 3, "#20a020", "Vlček Jaroslav", "VJ", "Tělocvik · Biologie · 1. ročník" },
-                    { 4, "#888888", "Krejčí Marie", "KM", "Chemie · Fyzika · 3. ročník" },
-                    { 5, "#5080e0", "Beneš Tomáš", "BT", "Dějepis · Zeměpis · 2. ročník" }
+                    { 1, "#4A90E2", "Jakub Šenkýř", "SNJ", "Vývoj softwaru" },
+                    { 2, "#2ECC71", "Jakub Lattenberg", "LAJ", "Aplikační software" },
+                    { 3, "#E74C3C", "Marek Šváb", "SVM", "Anglický jazyk, Ekonomika" },
+                    { 4, "#4D5645", "Petr Košátko", "KOP", "Operační systémy" },
+                    { 5, "#641C34", "Pavel Bárta", "BAP", "Internet věcí" },
+                    { 6, "#063971", "Jakub Klázar", "KLJ", "Mechatronika" },
+                    { 7, "#2E3A23", "Martina Pradáčová", "PRM", "Český jazyk a literatura" },
+                    { 8, "#CAC4B0", "Andrea Lukáčková", "LUA", "Matematika" },
+                    { 9, "#CBD0CC", "Radana Návratová", "NAR", "Občanská nauka" },
+                    { 10, "#A12312", "Martin Kádrle", "KAM", "Tělesná výchova" },
+                    { 11, "#CF3476", "Jan Nymš", "NYJ", "Počítačové sítě" }
                 });
 
             migrationBuilder.CreateIndex(

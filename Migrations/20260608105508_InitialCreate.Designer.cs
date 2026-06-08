@@ -11,7 +11,7 @@ using TeacherControl.Api.Data;
 namespace TeacherControl.Api.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260601110033_InitialCreate")]
+    [Migration("20260608105508_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -132,42 +132,90 @@ namespace TeacherControl.Api.Migrations
                         new
                         {
                             Id = 1,
-                            Color = "#e02020",
-                            FullName = "Novák Karel",
-                            Initials = "NK",
-                            Subject = "Matematika · Fyzika · 3. ročník"
+                            Color = "#4A90E2",
+                            FullName = "Jakub Šenkýř",
+                            Initials = "SNJ",
+                            Subject = "Vývoj softwaru"
                         },
                         new
                         {
                             Id = 2,
-                            Color = "#f0a020",
-                            FullName = "Procházková Helena",
-                            Initials = "PH",
-                            Subject = "Český jazyk · Literatura · 2. ročník"
+                            Color = "#2ECC71",
+                            FullName = "Jakub Lattenberg",
+                            Initials = "LAJ",
+                            Subject = "Aplikační software"
                         },
                         new
                         {
                             Id = 3,
-                            Color = "#20a020",
-                            FullName = "Vlček Jaroslav",
-                            Initials = "VJ",
-                            Subject = "Tělocvik · Biologie · 1. ročník"
+                            Color = "#E74C3C",
+                            FullName = "Marek Šváb",
+                            Initials = "SVM",
+                            Subject = "Anglický jazyk, Ekonomika"
                         },
                         new
                         {
                             Id = 4,
-                            Color = "#888888",
-                            FullName = "Krejčí Marie",
-                            Initials = "KM",
-                            Subject = "Chemie · Fyzika · 3. ročník"
+                            Color = "#4D5645",
+                            FullName = "Petr Košátko",
+                            Initials = "KOP",
+                            Subject = "Operační systémy"
                         },
                         new
                         {
                             Id = 5,
-                            Color = "#5080e0",
-                            FullName = "Beneš Tomáš",
-                            Initials = "BT",
-                            Subject = "Dějepis · Zeměpis · 2. ročník"
+                            Color = "#641C34",
+                            FullName = "Pavel Bárta",
+                            Initials = "BAP",
+                            Subject = "Internet věcí"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Color = "#063971",
+                            FullName = "Jakub Klázar",
+                            Initials = "KLJ",
+                            Subject = "Mechatronika"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Color = "#2E3A23",
+                            FullName = "Martina Pradáčová",
+                            Initials = "PRM",
+                            Subject = "Český jazyk a literatura"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Color = "#CAC4B0",
+                            FullName = "Andrea Lukáčková",
+                            Initials = "LUA",
+                            Subject = "Matematika"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Color = "#CBD0CC",
+                            FullName = "Radana Návratová",
+                            Initials = "NAR",
+                            Subject = "Občanská nauka"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Color = "#A12312",
+                            FullName = "Martin Kádrle",
+                            Initials = "KAM",
+                            Subject = "Tělesná výchova"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            Color = "#CF3476",
+                            FullName = "Jan Nymš",
+                            Initials = "NYJ",
+                            Subject = "Počítačové sítě"
                         });
                 });
 
